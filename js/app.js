@@ -14,7 +14,7 @@ addbtn.addEventListener("click", function (e) {
     let noteObj;
     if (notes == null) {
         noteObj = [];
-        // means null hoy to empty array asign kari devanu
+        // means null hoy to empty array asign kari devanu jani
     }
     else {
         noteObj = JSON.parse(notes);
